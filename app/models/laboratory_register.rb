@@ -1,0 +1,2 @@
+class LaboratoryRegister < ApplicationRecord
+end

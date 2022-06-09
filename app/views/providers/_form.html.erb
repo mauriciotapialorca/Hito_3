@@ -1,0 +1,32 @@
+<%= form_with(model: provider) do |form| %>
+  <% if provider.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(provider.errors.count, "error") %> prohibited this provider from being saved:</h2>
+
+      <ul>
+        <% provider.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :number_provider, style: "display: block" %>
+    <%= form.number_field :number_provider %>
+  </div>
+
+  <div>
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div>
+    <%= form.label :number_medicines, style: "display: block" %>
+    <%= form.number_field :number_medicines %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

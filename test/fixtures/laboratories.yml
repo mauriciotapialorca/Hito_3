@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number_laboratory: 1
+  address: MyString
+  pharmacy_of_brand: MyString
+  district: MyString
+  number_region: 1
+  hour_open: MyString
+  hour_close: MyString
+  phone: 1
+  number_medicine_isbn: MyString
+
+two:
+  number_laboratory: 1
+  address: MyString
+  pharmacy_of_brand: MyString
+  district: MyString
+  number_region: 1
+  hour_open: MyString
+  hour_close: MyString
+  phone: 1
+  number_medicine_isbn: MyString

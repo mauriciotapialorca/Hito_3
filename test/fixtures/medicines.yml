@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number_medicines: 1
+  description: MyString
+  initial_stock: 1
+  final_stock: 1
+  initial_price: 1
+  final_price: MyString
+
+two:
+  number_medicines: 1
+  description: MyString
+  initial_stock: 1
+  final_stock: 1
+  initial_price: 1
+  final_price: MyString
